@@ -4,7 +4,7 @@ def find_min_in_nested_arrays(src)
   counter = 0
   min = 100
   arr = []
-  
+
   while counter < src.length do
     puts " src[cou] #{src[counter]} #{counter}"
 
@@ -13,7 +13,7 @@ def find_min_in_nested_arrays(src)
       puts "src [][] #{src[counter][inner_counter]}"
       if min > src[counter][inner_counter]
       min = src[counter][inner_counter]
-      
+
       end
       inner_counter += 1
       puts "inner #{inner_counter}"
